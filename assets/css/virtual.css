@@ -81,6 +81,7 @@ body {
 
 .fw-normal {
     font-weight: 400;
+    font-size: 70px;
 }
 
 .fw-light {
@@ -1122,7 +1123,8 @@ a:hover, a:active {
 }
 
 .theme-red .fg-theme {
-    color: #EF3724 !important;
+    color: #ff9a16 !important;
+
 }
 
 .theme-red .btn-theme {

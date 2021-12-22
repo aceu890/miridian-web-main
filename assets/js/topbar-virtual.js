@@ -9,12 +9,13 @@ $(function() {
     var filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
   });
-  
+
+  // TESTIMONIOS CHUBACAN ======================================================================>>
   $('.testi-carousel').owlCarousel({
     margin: 0,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 20000,
     items: 1,
   });
   

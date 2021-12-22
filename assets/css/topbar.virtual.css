@@ -10,7 +10,7 @@
   padding: 10px 30px;
   background-color: rgba(116, 116, 116, 0.15);
   color: #747474;
-  font-size: 14px;
+  font-size: 30px;
   border-radius: 40px;
 }
 
@@ -405,6 +405,7 @@
   font-weight: 500;
   color: #EF3724;
   text-decoration: none;
+  font-size: 30px;
 }
 
 .post-grid .post-title {

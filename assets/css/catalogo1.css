@@ -2,19 +2,25 @@
 /* Estilos Generales */
 /* ------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Pushster&family=Staatliches&display=swap');
+
+
 body {
-     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+     background-image: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
 }
 
 .titulo {
      font-size: 55px;
      text-transform: uppercase;
      letter-spacing: 7px;
+
 }
 
 .galeria img {
      box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
      border-radius: 15px;
+     cursor: pointer;
+
 }
 
 .materialbox-caption {
@@ -46,3 +52,31 @@ body {
           width: 70%;
      }
 }
+
+
+/* MENU ==================================================== */
+.nav-menu {
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 25px;
+     background-color: rgb(255, 255, 255);
+     color: black;
+     box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.24);
+}
+
+
+.nav-menu a{
+     color: black;
+     font-size: 18px;
+     font-weight: bold;
+     background-color: white;
+     font-family: 'Poppins', sans-serif;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(221, 253, 252); 
+    font-size: 22px;
+    transition: 1s;
+
+}
+

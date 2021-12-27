@@ -116,8 +116,21 @@ a:hover, a:active {
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 78%;
+    height: auto;
+    border-radius: 15px;
 }
+
+@media (min-width: 768px) {
+    .img-place > img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+}
+
+
+
 
 /* Overlay */
 .overlay {
@@ -1134,8 +1147,10 @@ a:hover, a:active {
 }
 
 .theme-red .btn-theme:hover {
-    background-color: #F04936;
+    background-color: #da731e;
     color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .theme-red .btn-theme:focus {
@@ -1441,4 +1456,19 @@ a:hover, a:active {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+/* ICON-ANIMATION MENU-------------------------------------------------------------------------------- */
+.icon-animation:hover img {
+    transform: scale(1.2);
+    animation: icono .5s ease;
+}
+
+@keyframes icono {
+	from {
+		transform: rotate3d(0,0,0,0);
+	}
+	to {
+		transform: rotate3d(0,1,0, 360deg);
+	}
 }

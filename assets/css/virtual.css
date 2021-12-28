@@ -81,7 +81,7 @@ body {
 
 .fw-normal {
     font-weight: 400;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .fw-light {
@@ -264,12 +264,17 @@ a:hover, a:active {
     text-align: center;
     font-size: 18px;
     border-radius: 50%;
-    background-color: #52565c;
+    background-color: #4aa3fb;
     color: #fff;
     visibility: hidden;
     cursor: pointer;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.4);
     z-index: 99;
+}
+
+.btn-back_to_top:hover {
+  
+    background-color: #74b8fc;
 }
 
 /* Template Config */
@@ -1133,21 +1138,21 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #EF3724 !important;
+    background-color: #4aa3fb !important;
 }
 
 .theme-red .fg-theme {
-    color: #ff9a16 !important;
+    color: #4aa3fb !important;
 
 }
 
 .theme-red .btn-theme {
-    background-color: #EF3724;
+    background-color: #4aa3fb;
     color: #fff;
 }
 
 .theme-red .btn-theme:hover {
-    background-color: #da731e;
+    background-color: #637afc;
     color: #fff;
     transition: 0.5s;
     transform: scale(1.1);
@@ -1158,12 +1163,12 @@ a:hover, a:active {
 }
 
 .theme-red .btn-theme-outline {
-    color: #EF3724;
-    box-shadow: 0 0 0 2px #EF3724;
+    color: #4aa3fb;
+    box-shadow: 0 0 0 2px #4aa3fb;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #EF3724;
+    background-color: #4497eb;
     color: #fff;
 }
 
@@ -1192,7 +1197,7 @@ a:hover, a:active {
 }
 
 .theme-red .theme-list li::before {
-    border-color: #EF3724;
+    border-color: #1c64ac;
 }
 
 

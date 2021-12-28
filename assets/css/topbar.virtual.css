@@ -68,7 +68,7 @@
   background-size: initial;
   background-position-y : bottom;
 }
-
+/* TRANSPARENCIA DE IMAGEN --------------------------------------------------------------------------------------------------- */
 .page-home::before {
   content: '';
   position: absolute;
@@ -76,7 +76,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
 
@@ -115,8 +115,8 @@
 
 .page-home .badge {
   padding: 16px 24px;
-  background-color: rgba(236, 171, 117, 0.15);
-  color: #ef9724;
+  background-color: rgba(117, 236, 230, 0.15);
+  color: #a2dffc;
   text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
   font-size: 16px;
   border-radius: 40px;
@@ -389,7 +389,7 @@
 
 .post-grid .post-category {
   font-weight: 500;
-  color: #EF3724;
+  color: #4aa3fb;
   text-decoration: none;
   font-size: 30px;
 }
@@ -486,8 +486,8 @@
 /* Theme color style */
 /* Theme Red */
 .theme-red .badge-subhead {
-  background-color: rgba(239, 56, 36, 0.15);
-  color: #EF3724;
+  background-color: rgba(86, 153, 241, 0.582);
+  color: #ffffff;
 }
 
 .theme-red .filterable-button .btn.selected,
@@ -524,8 +524,8 @@
 }
 
 .theme-blue .page-home .badge {
-  background-color: rgba(41, 96, 247, 0.15);
-  color: #2960f7;
+  background-color: rgba(173, 19, 19, 0.15);
+  color: #badce9;
 }
 
 .theme-blue .page-about .img-place::before {

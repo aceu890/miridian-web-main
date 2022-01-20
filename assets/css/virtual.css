@@ -953,7 +953,7 @@ a:hover {
     font-weight: bolder;
 }
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ef3724;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #57d6a8;
 }
 .theme-red .btn-theme-outline {
     color: #3ac593;
